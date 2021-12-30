@@ -1,0 +1,8 @@
+<!DOCTYPE HTML>
+<html>
+<script src= "Basic_Javascript_1.js"></script>
+<p><font color="blue"face="roboto" size="24"> <i>As you can see this text is blue</i></font></p>
+
+<p><font color= "#ffoooo"> <b><u>However this text is actually #ffooo</u></b></font>
+</p>
+</html>
