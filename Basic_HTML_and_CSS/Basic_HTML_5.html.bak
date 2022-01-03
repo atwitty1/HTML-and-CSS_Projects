@@ -1,0 +1,10 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+	<title>Basic HTML 5</title>
+	</head>
+	<body>
+		<link rel="stylesheet" type= "text/css" Href= "Basic_CSS_2.css">
+		<p>This is the paragraph that should have the styling</p>
+	</body>
+</html>	

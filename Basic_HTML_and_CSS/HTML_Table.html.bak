@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+	<h2> Football Teams Table</h2>
+	<table style="Width;100%">
+	<link rel="stylesheet" type="text/css" href="CSS_Table.css">
+		<tr> 
+			<th>Team Name/Mascot</th>
+			<th>City of Origin</th>
+			<th>Conference</th>
+		</tr>
+		<tr>
+			<td>Broncos</td>
+			<td>Denver, CO</td>
+			<td>AFC West</td>
+		</tr>
+		<tr>
+			<td>Raiders</td>
+			<td>Las Vegas, NV</td>
+			<td>AFC West</td>
+		</tr>
+		<tr>
+			<td>Chargers</td>
+			<td>Los Angeles, CA</td>
+			<td>AFC West</td>
+		</tr>
+		<tr>
+			<td>Cheifs</td>
+			<td>Kansas City, MO</td>
+			<td>AFC West</td>
+		</tr>
+	</table>
+	</body>

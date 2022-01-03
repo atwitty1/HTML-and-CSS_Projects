@@ -1,0 +1,17 @@
+<!DOCTYPE>
+<html lang="en">
+	
+	<title>Lovely Day</title>
+	<head>
+		<div style = "color:blue">
+		<h2>Today is a lovely day<h2>
+		
+	</head>
+	<body>
+	
+		p{
+			<link rel="stylesheet" type= "text/css" href= "Basic_CSS_1.css">
+			}
+				<p> This color is actually titled DarkSlateBlue. It has also been styled with a CSS link</p>		
+	</body>
+</html>	
