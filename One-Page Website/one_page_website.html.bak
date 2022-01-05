@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>The Twitty Family Page</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="background-color:aqua; text-align:center">
+		
+	
+		<!--Nav-->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>Home</li></a>
+					<a href="#gallery"><li>Family Photos</li></a>
+					<a href="#Video"><li>Check us out in action</li></a>
+					<a href="#contact"><li>Reach Out</li></a>
+					
+				</ul>
+			</div>
+		</div>
+		<!--End Nav-->
+		
+		<!--Home-->
+		<div id="home">
+			<div>
+				<div>
+					<h1><span style= font-weight:bold >The Twitty Family</span><h1>
+					
+					<p><h3> <span style= font-weight:bold >About Us</span>: We are a large family of 6. Amanda and I (pictured below) have 4 beautiful daughters. <br />
+						We love to have movie nights and eat junk food, although we all "try" to be healthy. <br/>
+						We all agree that our favorite vacation spot is Maine<h3></p>
+				</div>
+			</div>
+		</div>
+		<!--End Home-->
+		
+		<!--Gallery-->
+		<section>
+			<div id="gallery">
+				<h1>Family Photos</h1>
+				<div>
+				
+					<!-- Photo-Container 1-->
+					<div> <!-- This is all of the photo boarders and such-->
+						<div> <!--This is the div for the actual photo-->
+							<img src="./Twitty Photos/twitty_1.jpg"alt= " The Creators">
+							<div> <!--this it the div for the actual words over the photo-->
+								<h3>The Creators</h3>
+								<p>These are the two that started it all! </p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 1-->
+					
+					<!-- Photo-Container 2-->
+					<div>
+						<div>
+							<img src="./Twitty Photos/Twitty_2.jpg"alt= "The Bug">
+							<div>
+								<h3>BUG</h3>
+								<p>The first born!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 2-->
+					
+					<!-- Photo-Container 3-->
+					<div>
+						<div>
+							<img src="./Twitty Photos/Twitty_3.jpg"alt= " The Taco">
+							<div>
+								<h3>Taco</h3>
+								<p> Althought she is second born, she will probably end up queen of something!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 3-->
+					
+					<!-- Photo-Container 4-->
+					<div>
+						<div>
+							<img src="./Twitty Photos/Twitty_4.jpg"alt= " The Squirt">
+							<div>
+								<h3>Squirt</h3>
+								<p>The Oldest Twin</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 4-->
+					
+					<!-- Photo-Container 5-->
+					<div>
+						<div>
+							<img src="./Twitty Photos/Twitty_5.jpg"alt= " The Squirrel">
+							<div>
+								<h3>Squirrel</h3>
+								<p>The Youngest twin</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 5-->
+					
+					<!-- Photo-Container 6-->
+					<div>
+						<div>
+							<img src="./Twitty Photos/Twitty_6.jpg"alt= " The Brood">
+							<div>
+								<h3>The Brood!</h3>
+								<p>Trying to catch everyone smiling!</p>
+							</div>
+						</div>
+					</div>
+					<!--End Photo-Container 6-->
+					
+					
+				</div>
+			</div>
+		</section>
+		<!--End Gallery-->
+		
+		<!--Video-->
+		<section>
+			<div>
+				<div>
+					<h3>Check out this video of my girls on the playground!<h3>
+					<div> 
+						<video controls>
+							<source src= "./Twitty Photos/girls.MOV" type="video/mp4">
+							Looks like the video is having a bad day!
+						</video>
+					</div>
+				</div>	
+			</div>
+		</section>
+		
+		<!-- End Video-->
+		
+		<!--RSVP-->
+		<section>
+			<div id= "contact">
+				<div>
+					<h3>Reach Out to us</h3>
+					<div>
+						<h2><span>Our Family Rocks!</span>
+							<br />Send us your Info for the family newsletter
+						</h2>
+						<p> 
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">								
+								<input class="rsvp" type="text" value="Email Address">	
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="formspacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Hit us up!">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End RSVP-->
+		
+
+		
+		
+		<!--Footer-->
+		<div>
+			The Twitty Family&nbsp;|&nbsp; &copy; 2011
+			<br />chefatwitty@gmail.com
+		</div>
+		<!--End Footer-->
+		
+	</body>
+</html>	
