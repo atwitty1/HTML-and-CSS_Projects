@@ -4,18 +4,18 @@
 		<title>The Twitty Family Page</title>
 		<meta charset="utf-8">
 	</head>
-	<body style="background-color:aqua; text-align:center">
+	<body style="background-color:CornflowerBlue; text-align:center">
 		
 	
 		<!--Nav-->
 		<div>
 			<div>
-				<ul>
+				<ul><h2>
 					<a href="#home" id="link"><li>Home</li></a>
 					<a href="#gallery"><li>Family Photos</li></a>
-					<a href="#Video"><li>Check us out in action</li></a>
+					<a href="#video"><li>Check us out in action</li></a>
 					<a href="#contact"><li>Reach Out</li></a>
-					
+				</h2>	
 				</ul>
 			</div>
 		</div>
@@ -104,11 +104,12 @@
 					<!-- Photo-Container 6-->
 					<div>
 						<div>
-							<img src="./Twitty Photos/Twitty_6.jpg"alt= " The Brood">
+							
 							<div>
 								<h3>The Brood!</h3>
 								<p>Trying to catch everyone smiling!</p>
 							</div>
+							<img src="./Twitty Photos/Twitty_6.jpg"alt= " The Brood">
 						</div>
 					</div>
 					<!--End Photo-Container 6-->
@@ -121,7 +122,7 @@
 		
 		<!--Video-->
 		<section>
-			<div>
+			<div id="video">
 				<div>
 					<h3>Check out this video of my girls on the playground!<h3>
 					<div> 
@@ -146,7 +147,7 @@
 							<br />Send us your Info for the family newsletter
 						</h2>
 						<p> 
-							Please provide us with your basic contact information.
+							Please provide us with your basic contact information, and we will add you to the weekly newsletter!
 						</p>
 						<div>
 							<form action="" method="post">
