@@ -1,0 +1,11 @@
+html {
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100.5%;
+}
+input {
+    width: 20%;
+    border: 2px dashed orangered;
+    margin: 2%;
+    border-radius: 2px;
+    background-color: plum;
+}
