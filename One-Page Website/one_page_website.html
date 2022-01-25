@@ -3,7 +3,9 @@
 	<head>
 		<title>The Twitty Family Page</title>
 		<meta charset="utf-8">
+		<script src="./JS/one_page_website.js" defer></script> <!--Link Java Script-->
 		<link rel="stylesheet" href="../One-Page Website/css/one_page_website.css">
+
 	</head>
 	<body style="background-color:CornflowerBlue; text-align:center">
 		
@@ -35,6 +37,67 @@
 			</div>
 		</div>
 		<!--End Home-->
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		
+			
+		
+			<div class="mySlides">
+				<div class="numbertext">2 / 6</div>
+				<img src="./Twitty Photos/Twitty_2.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">3 / 6</div>
+				<img src="./Twitty Photos/Twitty_3.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">4 / 6</div>
+				<img src="./Twitty Photos/Twitty_4.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides">
+				<div class="numbertext">5 / 6</div>
+				<img src="./Twitty Photos/Twitty_5.jpg" style="width:100%">
+			</div>
+
+			
+		
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+			<!-- Caption text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+		
+			<!-- Thumbnail image controls -->
+			
+		
+			<div class="column">
+				<img class="demo" src="./Twitty Photos/Twitty_2.jpg" onclick="currentSlide(2)" alt="BUG">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="./Twitty Photos/Twitty_3.jpg" onclick="currentSlide(3)" alt="Taco">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="./Twitty Photos/Twitty_4.jpg" onclick="currentSlide(4)" alt="Squirt">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="./Twitty Photos/Twitty_5.jpg" onclick="currentSlide(5)" alt="Squirrel">
+			</div>
+
+			
+			</div>
+		</div>
 		
 		<!--Gallery-->
 		<section>
@@ -44,98 +107,91 @@
 				
 					<!-- Photo-Container 1-->
 					<div> <!-- This is all of the photo boarders and such-->
-						<div> <!--This is the div for the actual photo-->
+						<div class=> <!--This is the div for the actual photo-->
 							
-							<div> <!--this it the div for the actual words over the photo-->
+							<div> <!--this it the div for the actual words above the photo-->
 								<h3>The Creators</h3>
 								<p>These are the two that started it all! </p>
 							</div>
-							<img src="./Twitty Photos/twitty_1.jpg"alt= " The Creators">
+							<img src="./Twitty Photos/twitty_1.jpg" alt= " The Creators">
 						</div>
 					</div>
 					<!--End Photo-Container 1-->
-					
+					<br>
 					<!-- Photo-Container 2-->
 					<div>
-						<div>
+						<div class="column">
 							
 							<div>
 								<h3>BUG</h3>
 								<p>The first born!</p>
 							</div>
-							<img src="./Twitty Photos/Twitty_2.jpg"alt= "The Bug">
+							<img src="./Twitty Photos/Twitty_2.jpg" onclick= "openModal();currentSlide(1)" class= "hover-shadow" 
+							alt= "The Bug">
 						</div>
 					</div>
 					<!--End Photo-Container 2-->
 					
 					<!-- Photo-Container 3-->
 					<div>
-						<div>
+						<div class="column">
 							
 							<div>
 								<h3>Taco</h3>
 								<p> Althought she is second born, she will probably end up queen of something!</p>
 							</div>
-							<img src="./Twitty Photos/Twitty_3.jpg"alt= " The Taco">
+							<img src="./Twitty Photos/Twitty_3.jpg" onclick= "openModal();currentSlide(1)" class= "hover-shadow" 
+							alt= " The Taco">
 						</div>
 					</div>
 					<!--End Photo-Container 3-->
 					
 					<!-- Photo-Container 4-->
 					<div>
-						<div>
+						<div class="column" >
 							
 							<div>
 								<h3>Squirt</h3>
 								<p>The Oldest Twin</p>
 							</div>
-							<img src="./Twitty Photos/Twitty_4.jpg"alt= " The Squirt">
+							<img src="./Twitty Photos/Twitty_4.jpg" onclick= "openModal();currentSlide(1)" class= "hover-shadow" 
+							alt= " The Squirt">
 						</div>
 					</div>
 					<!--End Photo-Container 4-->
 					
 					<!-- Photo-Container 5-->
 					<div>
-						<div>
+						<div class="column">
 							
 							<div>
 								<h3>Squirrel</h3>
 								<p>The Youngest twin</p>
 							</div>
-							<img src="./Twitty Photos/Twitty_5.jpg"alt= " The Squirrel">
+							<img src="./Twitty Photos/Twitty_5.jpg" onclick= "openModal();currentSlide(1)" class= "hover-shadow" 
+							alt= " The Squirrel">
 						</div>
 					</div>
 					<!--End Photo-Container 5-->
-					
-					<!-- Photo-Container 6-->
-					<div>
-						<div>
-							
-							<div>
-								<h3>The Brood!</h3>
-								<p>Trying to catch everyone smiling!</p>
-							</div>
-							<img src="./Twitty Photos/Twitty_6.jpg"alt= " The Brood">
-						</div>
-					</div>
-					<!--End Photo-Container 6-->
-					
-					
+
 				</div>
 			</div>
 		</section>
+		<br>
+		<br>
 		<!--End Gallery-->
-		
+		<br>
 		<!--Video-->
 		<section>
 			<div id="video">
 				<div>
-					<h3>Check out this video of my girls on the playground!<h3>
+				
 					<div> 
 						<video controls>
 							<source src= "./Twitty Photos/girls.MOV" type="video/mp4">
 							Looks like the video is having a bad day!
 						</video>
+						<h3>Check out this video of my girls on the playground!<h3>
 					</div>
 				</div>	
 			</div>

@@ -3,9 +3,8 @@
 	<head>
 		<title>Basic HTML</title>
 		<meta charset="utf-8">
-		<script src="" defer></script> <!--Link Java Script-->
 		<link rel="stylesheet" type="text/css" href=""><!--Link a CSS-->
-		
+		<script src="" ></script> <!--Link Java Script-->
 	</head>
 	<body>
 	
