@@ -4,8 +4,13 @@
 		<title>Basic HTML</title>
 		<meta charset="utf-8">
 		<script src="" defer></script> <!--Link Java Script-->
-		<script src= "http://code.jquery.com/jquery-latest.min.js" type="text/javascript"
-		</script>
+		
+		<script src= "http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script><!--How to link Jquery1-->
+		<script src= "//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script><!--How to link Jquery2-->
+		
+		<script src="https://cdnjs.cloudfare.com/ajax/libs/react/0.14.3/react.js"></script><!-- how to link react with URL1-->
+		<script src="https://cdnjs.cloudfare.com/ajax/libs/react/0.14.3/react-dom.js"></script><!-- how to link react with URL2-->
+
 		<link rel="stylesheet" type="text/css" href=""><!--Link a CSS-->
 		
 	</head>
