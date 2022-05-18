@@ -9,6 +9,6 @@
  <h5>bootstrap4_project</h5>
    This project was my first working with Bootstrap. There is basic HTML and CSS with bootstrap used here.
  <h5>Portfolio Assignment</h5>
-   This was the final and most detailed project of the HTML and CSS course. I think that this is the most detailed of all of the projects in this repository.
+   This was the final and most detailed project of the HTML and CSS course. I think that this is the most detailed of all of the projects in this repository. See this link https://atwitty1.github.io/Aaron_Twitty_Portfolio/.
  
  There are quite a few additional files and connected photos in this repository. These were all smaller challenges that I performed during this course.
